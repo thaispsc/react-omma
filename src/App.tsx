@@ -1,15 +1,11 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
 import './App.css'
+import MyRoutes from './routes'
+MyRoutes
 
 function App() {
 
   return (
-    <div className="container">
-    <Header />
-    {/* {ContentList} */}
-    <Footer />
-    </div>
+    <MyRoutes />
   )
 }
 
